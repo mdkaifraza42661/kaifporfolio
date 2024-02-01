@@ -1,0 +1,154 @@
+.bg-blue{
+    background-color: #1F1F38;
+    background-image: url(./images/download.png);
+}
+.roundedtop1{
+    background: linear-gradient(359deg, rgba(77,181,255,0.4375) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 12rem 12rem 0 0;
+    height: 30rem;
+    left: calc(47% - 11rem);
+    /* margin-top: 4rem; */
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem;
+    position: absolute;
+    width: 22rem;
+    
+}
+
+.kaifbtn{
+    background-color: #4db5ffaf!important;
+    border: none!important;
+}
+.kaifbtn:hover{
+    background-color: #ffffff!important;
+    border: none!important;
+    color: black!important;
+    transition: ease-in 1s;
+}
+.kaifroundegicon:hover{
+    transition: ease-in 0.3s;
+   color: #4db5ffaf;
+}
+.Aboutkaifbg{
+    background: linear-gradient(288deg, rgba(77,181,255,0.4375) 35%, rgba(0,212,255,1) 100%);
+    width: 70%;
+
+    border-radius: 18px;
+}
+.kaifrotate{
+    transform: rotate(-8deg);
+}
+.kaifrotate:hover{
+    transition: ease-in 0.5s;
+    transform: rotate(0);
+}
+.cardkaifcolor{
+    background-color:#2C2C6C!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.w-251{
+    width: 20%!important;
+    filter: invert(100%);
+}
+.kexpsection{
+    background-color: #2c2c6c!important;
+    border: 1px solid #4db5ffaf;
+    border-radius: 0 0 2rem 2rem;
+}
+.kexpsection:hover{
+    transition: ease-in-out 0.5s;
+    background-color: transparent!important;
+    border: 1px solid #4db5ffaf;
+    
+}
+.roundedexp{
+    border-radius: 14%;
+}
+.expclr{
+    color: rgba(255, 255, 255, 0.56);
+}
+.offer-border{
+    background-color: #4DB5FF;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0,0,0,.1);
+    padding: 2rem;
+}
+.kaif2btn{
+    border: 1px solid #4DB5FF!important;
+    color: #4DB5FF!important;
+}
+.test1rotatkaif{
+    width: 614px;
+    /* z-index: 6; */
+    transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(1);
+    border: 1px solid #4DB5FF;
+}
+
+/* swiper start */
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+
+.swiper-slide {
+    background-color: #2c2c6c;
+}
+.bg-warning1{
+    background-color: #2c2c6c!important;
+}
+input, textarea {
+    background: transparent !important;
+    border: 2px solid #4DB5FF!important;
+    border-radius: 0.5rem!important;
+    color: #fff !important;
+    padding: 1rem !important;
+    resize: none !important;
+    width: 100% !important;
+}
+input::placeholder, textarea::placeholder {
+    color: #fff !important;
+    
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none!important;
+}
+.footercolor{
+    color: #1F1F38!important;
+    font-weight: 600;
+}
+.footercolor:hover{
+    transition: ease-in 0.5s;
+    color: #FBFDFF!important;
+}
+.footerbgcolor {
+    background-color: #4DB5FF;
+}
+.kaiffootericon{
+    width: 50px;
+    height: 50px;
+    background-color: #1F1F38;
+    border-radius: 12px;
+    border: 1px solid #1F1F38;
+}
+.kaiffootericon:hover {
+    transition: ease-in 0.5s;
+    background-color: transparent;
+    border: 1px solid #1F1F38;
+}
+.kaiffootericon:hover .twitter {
+    color: #1F1F38;
+}
